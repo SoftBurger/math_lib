@@ -1,3 +1,3 @@
 #pragma once
 
-void Unit_Test(void (*)());
+void Unit_Test();

@@ -45,11 +45,11 @@ void Tests()
 	Check(math_lib::abs(math_lib::sin(-3.14) - 0.0) < eps);
 }
 
-void Unit_Test(void (*fp)() = Tests)
+void Unit_Test()
 {
 	try
 	{
-		fp();
+		Tests();
 	}
 	catch (Unit_Test_Exception excep)
 	{
